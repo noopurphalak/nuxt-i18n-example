@@ -32,7 +32,10 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/i18n'],
   i18n: {
-    locales: ['en', 'ar'],
+    locales: [
+      { code: 'en', name: 'English' },
+      { code: 'ar', name: 'Arabic' },
+    ],
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en',
